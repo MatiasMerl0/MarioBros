@@ -5,13 +5,13 @@
   - [Compilacion en Windows](#compilación-en-windows)
   - [Compilacion en Linux](#compilación-en-linux)
 - [Ejecución](#ejecución) <!-- no se, aca iria algo sobre como ejecutarlo tal vez? -->
-- [Juego](#juego) <!-- instrucciones del juego ( controles, objetivo, etc) -->
+
 
 ## Compilación
 
 Primero es necesario clonar el repositorio a un lugar en tu PC. Para eso se puede usar **git** con el comando: 
 ```
-git clone https://github.com/Ballestrinque-Taller/MarioBros-Ballestrinque.git
+git clone https://github.com/MatiasMerl0/Taller-1.git
 ```
 o descargar el código de este repositorio en formato zip y extraerlo a alguna carpeta.  
 
