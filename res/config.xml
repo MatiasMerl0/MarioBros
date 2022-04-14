@@ -1,0 +1,130 @@
+<config>
+    <log nivel="DEBUG">
+    </log>
+    <jugadores cantidad = "1">
+        <jugador1 path="./res/MARIO_NORMAL.png">
+        </jugador1>
+        <jugador2 path="./res/LUIGI.png">
+        </jugador2>
+        <jugador3 path="./res/MARIO_ESTRELLA.png">
+        </jugador3>
+        <jugador4 path="./res/FLOR_DE_FUEGO.png">
+        </jugador4>
+    </jugadores>
+    <nivel1>
+        <tiempo cantidad="500">
+        </tiempo>
+        <background imagen="./res/Nivel_1_sinTuberia.png" ancho="3392" alto="224">
+        </background>
+        <monedas cantidad="20" imagen="./res/MONEDA.png">
+        </monedas>
+        <bloques>
+            <bloque x="0" y="535" cantidad="74" tipo="Ladrillo" imagen="./res/PISO_NIVEL_1_3.png">
+            </bloque>
+            <bloque x="3050" y="535" cantidad="16" tipo="Ladrillo" imagen="./res/PISO_NIVEL_1_3.png">
+            </bloque>
+            <bloque x="3830" y="535" cantidad="68" tipo="Ladrillo" imagen="./res/PISO_NIVEL_1_3.png">
+            </bloque>
+            <bloque x="6660" y="535" cantidad="61" tipo="Ladrillo" imagen="./res/PISO_NIVEL_1_3.png">
+            </bloque>
+            <bloque x="1800" y="350" cantidad="15" tipo="Ladrillo" imagen="./res/LADRILLO.png">
+            </bloque>
+            <bloque x="1400" y="350" cantidad="5" tipo="Sorpresa" imagen="./res/SORPRESA.png">
+            </bloque>
+            <bloque x="1750" y="350" cantidad="1" tipo="Sorpresa" imagen="./res/SORPRESA.png">
+            </bloque>
+            <bloque x="900" y="350" cantidad="1" tipo="Sorpresa" imagen="./res/SORPRESA.png">
+            </bloque>
+            <bloque x="7200" y="350" cantidad="2" tipo="Sorpresa" imagen="./res/SORPRESA.png">
+            </bloque>
+            <bloque x="1000" y="375" cantidad="5" tipo="Ladrillo" imagen="./res/LADRILLO.png">
+            </bloque>
+            <bloque x="2500" y="495" cantidad="2" tipo="Tuberia" imagen="./res/TUBERIA.png">
+            </bloque>
+            <bloque x="4000" y="495" cantidad="2" tipo="Tuberia" imagen="./res/TUBERIA.png">
+            </bloque>
+            <bloque x="7000" y="495" cantidad="2" tipo="Tuberia" imagen="./res/TUBERIA.png">
+            </bloque>
+            <bloque x="700" y="495" cantidad="3" tipo="Tuberia" imagen="./res/TUBERIA.png">
+            </bloque>
+        </bloques>
+        <enemigos>
+            <enemigo tipo="troopa" imagen="./res/TORTUGA.png" cantidad="10">
+            </enemigo>
+            <enemigo tipo="goomba" imagen="./res/Goomba.png" cantidad="8">
+            </enemigo>
+        </enemigos>
+    </nivel1>
+    <nivel2>
+        <tiempo cantidad="500">
+        </tiempo>
+        <background imagen="./res/Nivel_2sinTuberia.png" ancho="3072" alto="224">
+        </background>
+        <monedas cantidad="20" imagen="./res/MONEDA.png">
+        </monedas>
+        <bloques>
+            <bloque x="0" y="535" cantidad="86" tipo="Ladrillo" imagen="./res/PISO_NIVEL_2.png">
+            </bloque>
+            <bloque x="3560" y="535" cantidad="40" tipo="Ladrillo" imagen="./res/PISO_NIVEL_2.png">
+            </bloque>
+            <bloque x="5245" y="535" cantidad="2" tipo="Ladrillo" imagen="./res/PISO_NIVEL_2.png">
+            </bloque>
+            <bloque x="5410" y="535" cantidad="13" tipo="Ladrillo" imagen="./res/PISO_NIVEL_2.png">
+            </bloque>
+            <bloque x="6225" y="535" cantidad="9" tipo="Ladrillo" imagen="./res/PISO_NIVEL_2.png">
+            </bloque>
+            <bloque x="6875" y="535" cantidad="35" tipo="Ladrillo" imagen="./res/PISO_NIVEL_2.png">
+            </bloque>
+            <bloque x="500" y="350" cantidad="5" tipo="Sorpresa" imagen="./res/SORPRESA.png">
+            </bloque>
+            <bloque x="4500" y="350" cantidad="3" tipo="Sorpresa" imagen="./res/SORPRESA.png">
+            </bloque>
+        </bloques>
+        <enemigos>
+            <enemigo tipo="troopa" imagen="./res/TORTUGA2.png" cantidad="4">
+            </enemigo>
+            <enemigo tipo="goomba" imagen="./res/Goomba2.png" cantidad="5">
+            </enemigo>
+        </enemigos>
+    </nivel2>
+    <nivel3>
+        <tiempo cantidad="500">
+        </tiempo>
+        <background imagen="./res/Nivel_3.png" ancho="3552" alto="224">
+        </background>
+        <monedas cantidad="20" imagen="./res/MONEDA.png">
+        </monedas>
+        <bloques>
+            <bloque x="0" y="535" cantidad="86" tipo="Ladrillo" imagen="./res/PISO_NIVEL_1_3.png">
+            </bloque>
+            <bloque x="3530" y="535" cantidad="44" tipo="Ladrillo" imagen="./res/PISO_NIVEL_1_3.png">
+            </bloque>
+            <bloque x="5370" y="535" cantidad="3" tipo="Ladrillo" imagen="./res/PISO_NIVEL_1_3.png">
+            </bloque>
+            <bloque x="5580" y="535" cantidad="100" tipo="Ladrillo" imagen="./res/PISO_NIVEL_1_3.png">
+            </bloque>
+            <bloque x="500" y="350" cantidad="2" tipo="Sorpresa" imagen="./res/SORPRESA.png">
+            </bloque>
+        </bloques>
+        <enemigos>
+            <enemigo tipo="troopa" imagen="./res/TORTUGA.png" cantidad="4">
+            </enemigo>
+            <enemigo tipo="goomba" imagen="./res/Goomba.png" cantidad="5">
+            </enemigo>
+        </enemigos>
+    </nivel3>
+    <credenciales>
+        <credencial1 usuario="franco" password="123">
+        </credencial1>
+        <credencial2 usuario="matias" password="123">
+        </credencial2>
+        <credencial3 usuario="ramiro" password="123">
+        </credencial3>
+        <credencial4 usuario="micaela" password="123">
+        </credencial4>
+        <credencial5 usuario="tomas" password="123">
+        </credencial5>
+        <credencial6 usuario="123" password="123">
+        </credencial6>
+    </credenciales>
+</config>
